@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    background-color: #696969;
+}
+#navbar #foody_logo {
+    float: left;
+}
+#navbar ul li {
+    display: inline;
+    margin: 4%;
+    color: #000000;
+    font-size: 20px;
+}
+
+
+
+
+
+#article_section article {
+    color: green;    
+}
+
+
+
+#iphone_image {
+    width: 80px;
+}

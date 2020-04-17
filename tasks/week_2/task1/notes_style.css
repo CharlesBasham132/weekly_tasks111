@@ -1,0 +1,27 @@
+body {
+    background-color: #ffffff;
+}
+h1::before {
+    content: "1234";
+    color: red;
+}
+h1 {
+    color: blue;
+}
+#enlarge {
+    font-size: 30px;
+}
+.change_to_green {
+    color: green;
+}
+p:hover::first-letter{
+    font-size: 40px;
+    color: purple;
+}
+#king_spades {
+    height: 220px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
