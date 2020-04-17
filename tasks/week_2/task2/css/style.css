@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content {
+    width: 80%;
+    margin: 0 auto;
+}
+
 #navbar {
     background-color: #696969;
 }
@@ -14,17 +22,30 @@
     color: #000000;
     font-size: 20px;
 }
-
+#download_button {
+    border-radius: 25px;
+    background-color: green;
+    color: #ffffff;
+    padding: 2%;
+}
+#in_app_feature h3 span {
+    color: red;
+}
+#iphone_image {
+    width: 80px;
+    float: right;
+}
 
 
 
 
 #article_section article {
-    color: green;    
+    color: blue;
+    background-color: yellow;
+    margin: 4%;
+    width: 20%;
+    display: inline-block;
 }
 
 
 
-#iphone_image {
-    width: 80px;
-}
