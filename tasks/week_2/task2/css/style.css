@@ -12,15 +12,21 @@ body {
 
 #navbar {
     background-color: #696969;
+    margin: 20px 0px 20px;
 }
 #navbar #foody_logo {
     float: left;
+    height: 40px;
 }
 #navbar ul li {
     display: inline;
     margin: 4%;
     color: #000000;
     font-size: 20px;
+}
+#smart_kitchen {
+    color: purple;
+    margin: 10px 30%;
 }
 #download_button {
     border-radius: 25px;
