@@ -11,7 +11,7 @@ body {
 }
 
 #navbar {
-    background-color: #696969;
+    background-color: #c0c0c0;
     margin: 20px 0px 20px;
 }
 #navbar #foody_logo {
@@ -26,7 +26,9 @@ body {
 }
 #smart_kitchen {
     color: purple;
-    margin: 10px 30%;
+    margin: 10px 40% 10px 0%;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #download_button {
     border-radius: 25px;
@@ -34,12 +36,26 @@ body {
     color: #ffffff;
     padding: 2%;
 }
+#in_app_feature {
+    background-color: #c0c0c0;
+    margin: 10px 40% 10px 0%;
+}
+
 #in_app_feature h3 span {
     color: red;
 }
 #iphone_image {
-    width: 80px;
-    float: right;
+    position: static;
+    top: 10px;
+
+    background-image: url("../images/iphone_image.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    
+    
 }
 
 
